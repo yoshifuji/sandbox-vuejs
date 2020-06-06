@@ -1,3 +1,4 @@
+//Ref: https://qiita.com/Hiroyuki_OSAKI/items/e1fc16b973fa499c32e2#fn2
 import { GraphQLServer } from "graphql-yoga";
 
 const locations = [
