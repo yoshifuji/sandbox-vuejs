@@ -1,0 +1,24 @@
+{
+  "name": "simple_json_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ext ts,yaml --exec 'ts-node' index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoshifuji"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
